@@ -1,0 +1,19 @@
+{
+  "name": "js-es6-snippets",
+  "version": "1.0.0",
+  "description": "Hi! This is a place for saving my everyday useful JS ES6 snippets.\r I would be happy to exchange ideas with you or pull your requests.\r Happy coding ;)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alimobasheri/JS-ES6-Snippets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alimobasheri/JS-ES6-Snippets/issues"
+  },
+  "homepage": "https://github.com/Alimobasheri/JS-ES6-Snippets#readme"
+}
