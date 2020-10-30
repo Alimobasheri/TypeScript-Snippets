@@ -1,11 +1,10 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * Extracts a value from an Object just by its key.
  * @param {string} key The key to be searched for.
  * @param {string} object The object to search for the key in.
  */
-//dome
+Object.defineProperty(exports, "__esModule", { value: true });
 const digObject = (key, object) => key in object ?
     // If the key exists in the first level, return its value.
     object[key] :
@@ -19,4 +18,3 @@ const digObject = (key, object) => key in object ?
             return digObject(key, value);
     }, undefined);
 exports.default = digObject;
-//# sourceMappingURL=dig-object.js.map
