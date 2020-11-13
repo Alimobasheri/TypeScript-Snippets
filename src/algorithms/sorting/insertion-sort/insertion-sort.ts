@@ -3,7 +3,7 @@
  * @param array The list of numbers to be sorted
  */
 
-export default function insertionSort(array: number[]): void {
+export default function insertionSort(array: number[]): number[] {
     let len: number = array.length;
     for(let j: number = 1; j < len; j++) {
         let key: number = array[j];
@@ -15,4 +15,5 @@ export default function insertionSort(array: number[]): void {
         }
         array[i] = key;
     }
+    return array;
 }
