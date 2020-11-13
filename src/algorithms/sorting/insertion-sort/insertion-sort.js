@@ -10,11 +10,11 @@ function insertionSort(array) {
         var key = array[j];
         // Insert array[j] into the sorted sequence array[1...j-1]
         var i = j - 1;
-        while (i > 0 && array[i] > key) {
+        while (i >= 0 && array[i] > key) {
             array[i + 1] = array[i];
             i--;
         }
-        array[i] = key;
+        array[i + 1] = key;
     }
     return array;
 }

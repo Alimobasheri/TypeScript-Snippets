@@ -9,11 +9,11 @@ export default function insertionSort(array: number[]): number[] {
         let key: number = array[j];
         // Insert array[j] into the sorted sequence array[1...j-1]
         let i: number = j-1;
-        while(i > 0 && array[i] > key) {
+        while(i >= 0 && array[i] > key) {
             array[i+1] = array[i];
             i--;
         }
-        array[i] = key;
+        array[i+1] = key;
     }
     return array;
 }
