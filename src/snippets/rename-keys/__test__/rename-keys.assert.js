@@ -1,5 +1,3 @@
-import { TestScheduler } from "jest"
-import { idText } from "typescript"
 import renameKeys from "../rename-keys"
 
 const exmapleObj = {
